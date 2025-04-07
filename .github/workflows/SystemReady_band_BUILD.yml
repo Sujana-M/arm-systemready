@@ -4,6 +4,7 @@ on:
   push:
     branches:                # trigger on push to master
       - main
+      - 3.0_development
   pull_request:              # trigger on pull requests to master
     branches:
       - main
