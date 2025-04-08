@@ -65,7 +65,7 @@ get_bsa_src()
 	git clone --depth 1 https://github.com/Sujana-M/bsa-acs.git ShellPkg/Application/bsa-acs
     else
         echo "Downloading Arm BSA source code. TAG : $ARM_BSA_TAG"
-        git clone --depth 1 --branch $ARM_BSA_TAG https://github.com/ARM-software/bsa-acs.git ShellPkg/Application/bsa-acs
+	git clone --depth 1 https://github.com/Sujana-M/bsa-acs.git ShellPkg/Application/bsa-acs
     fi
     popd
     pushd  $TOP_DIR/edk2/ShellPkg/Application/bsa-acs
